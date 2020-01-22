@@ -62,7 +62,6 @@ console.assert(isVowel('n') === false, 'error: isVowel() function');
   // ---------------------
   // Write a function rovarspraket() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
   // ---------------------
-
   function translate(str){
       var q = '';
 
