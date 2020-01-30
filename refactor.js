@@ -28,12 +28,14 @@
 // function
 
 function doSomethingCool() {
-  // console.log("Something Cool!");
+  console.log("Something Cool!");
 }
 
 // Put your answer below -------------------------
 
-
+let doSomethingCool = () => {
+  console.log("Something Cool!");
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -53,6 +55,7 @@ setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
 
+setTimeout(() => alert('Hello, World!'), 2000);
 
 // -----------------------------------------------
 
@@ -83,6 +86,7 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+[c] setTimeout doesn't fire immediately. It waits at least 1 millisecond before firing.
 
 // -----------------------------------------------
 
@@ -105,7 +109,9 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 
-
+var reverseStr = (str) => {
+  return str.split("").reverse().join("");
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -139,6 +145,19 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 
+var spanishColor = function(colorName) {
+  let colorObj = {
+    'rojo': '#ff0000',
+    'blanco': '#ffffff',
+    'azul': '#0000ff',
+    'verde': '#00ff00',
+    'negro': '#000000'
+  }
+
+  return colorObj[colorName];
+};
+
+spanishColor('rojo');
 
 // -----------------------------------------------
 
