@@ -175,7 +175,8 @@ var foo = "bar";
 
 // Put your answer below -------------------------
 
-
+let foo;
+foo = 'bar';
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -197,7 +198,9 @@ var callTenTimes = function(callback) {
 
 // Put your answer below -------------------------
 
+var callNTimes = function(callback, num) {
 
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -244,8 +247,14 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
-
-
+function max(num1, num2) {
+  if (num1 > num2) {
+  return num1;
+  }
+  else {
+    return num2;
+  }
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -271,7 +280,16 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+var speed = 0;
 
+var accelerate = function(amount) {
+  if(amount === 0) {
+    speed += 1;
+  }else {
+    speed += amount;
+  }
+};
+accelerate();
 // -----------------------------------------------
 
 //////////////////////////////////////////////////

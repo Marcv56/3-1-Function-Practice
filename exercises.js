@@ -16,14 +16,9 @@
   console.assert(max(5, 6) === 6, 'error: max() function');
   console.assert(max(3, 2) === 3, 'error: max() function');
 
-
-
-
   // ---------------------
   // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
   // ---------------------
-
-
 
   let maxOfThree = (num1, num2, num3) => {
     if (num1 >= num2 && num1 >= num3) {
@@ -36,9 +31,6 @@
   }
 
   console.assert(max(5, 4, 3) === 5, 'error: max() function');
-
-
-
 
   // ---------------------
   // Define a function isVowel() that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
@@ -59,8 +51,6 @@
   console.assert(isVowel('u') === true, 'error: isVowel() function');
   console.assert(isVowel('n') === false, 'error: isVowel() function');
 
-
-
   // ---------------------
   // Write a function rovarspraket() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
   // ---------------------
@@ -79,8 +69,6 @@
     x = translate(phrase);
 
   console.log(translate("this is fun"));
-
-
 
   // ---------------------
   // Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
@@ -103,10 +91,6 @@
     return total;
   }
 
-
-
-
-
   // ---------------------
   // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
   // ---------------------
@@ -120,10 +104,6 @@
     return text.toLowerCase();
   }
   console.log(reverse("jag testar"));
-
-
-
-
 
   // ---------------------
   // Define a function findLongestWord() that takes an array of words and returns the length of the longest one.
@@ -141,8 +121,6 @@
 
     return maxLength;
   }
-
-
 
   // ---------------------
   // Define a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
